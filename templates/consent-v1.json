@@ -1,0 +1,116 @@
+{
+  "id": "22222222-2222-4222-8222-000000000002",
+  "project_id": "11111111-1111-4111-8111-111111111111",
+  "stage": "consent",
+  "version": 1,
+  "name": {
+    "en": "Consent · v1",
+    "hi": "सहमति · v1"
+  },
+  "fields": [
+    {
+      "id": "consent_granted",
+      "label": {
+        "en": "Consent granted",
+        "hi": "सहमति दी गई"
+      },
+      "type": "boolean",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      },
+      "required": true
+    },
+    {
+      "id": "consent_date",
+      "label": {
+        "en": "Consent date",
+        "hi": "सहमति तिथि"
+      },
+      "type": "date",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      },
+      "required": true
+    },
+    {
+      "id": "collector",
+      "label": {
+        "en": "Statement explained by",
+        "hi": "कथन समझाने वाला"
+      },
+      "type": "text",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      },
+      "required": true
+    },
+    {
+      "id": "language",
+      "label": {
+        "en": "Language used",
+        "hi": "प्रयुक्त भाषा"
+      },
+      "type": "select",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      },
+      "required": true,
+      "options": [
+        {
+          "value": "hi",
+          "label": {
+            "en": "Hindi",
+            "hi": "हिन्दी"
+          }
+        },
+        {
+          "value": "en",
+          "label": {
+            "en": "English",
+            "hi": "अंग्रेज़ी"
+          }
+        },
+        {
+          "value": "local",
+          "label": {
+            "en": "Local language",
+            "hi": "स्थानीय भाषा"
+          }
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "label": {
+        "en": "Questions or reasons for declining",
+        "hi": "प्रश्न या अस्वीकार करने के कारण"
+      },
+      "type": "text",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      }
+    },
+    {
+      "id": "evidence_photo",
+      "label": {
+        "en": "Consent evidence (optional)",
+        "hi": "सहमति साक्ष्य (वैकल्पिक)"
+      },
+      "type": "photo",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      }
+    }
+  ],
+  "published_at": "2026-08-01T00:00:00Z",
+  "consent_statement": {
+    "en": "We have explained the project, proposed activities, expected benefits, possible risks, and the voluntary nature of participation. You may ask questions or decline. This demonstration statement must be adapted to the project and community before field use.",
+    "hi": "हमने परियोजना, प्रस्तावित गतिविधियाँ, अपेक्षित लाभ, संभावित जोखिम और स्वैच्छिक भागीदारी समझाई है। आप प्रश्न पूछ सकते हैं या मना कर सकते हैं। क्षेत्र में उपयोग से पहले इस प्रदर्शन कथन को परियोजना और समुदाय के अनुसार अनुकूलित करें।"
+  }
+}

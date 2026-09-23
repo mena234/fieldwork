@@ -1,0 +1,134 @@
+{
+  "id": "22222222-2222-4222-8222-000000000005",
+  "project_id": "11111111-1111-4111-8111-111111111111",
+  "stage": "monitoring",
+  "version": 1,
+  "name": {
+    "en": "Monitoring · v1",
+    "hi": "निगरानी · v1"
+  },
+  "fields": [
+    {
+      "id": "visit_date",
+      "label": {
+        "en": "Monitoring date",
+        "hi": "निगरानी तिथि"
+      },
+      "type": "date",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      },
+      "required": true
+    },
+    {
+      "id": "trees_alive",
+      "label": {
+        "en": "Living trees",
+        "hi": "जीवित पेड़"
+      },
+      "type": "number",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      },
+      "required": true,
+      "min": 0,
+      "max": 100000
+    },
+    {
+      "id": "average_height",
+      "label": {
+        "en": "Average height (metres)",
+        "hi": "औसत ऊँचाई (मीटर)"
+      },
+      "type": "number",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      },
+      "min": 0,
+      "max": 100
+    },
+    {
+      "id": "issues",
+      "label": {
+        "en": "Issues observed?",
+        "hi": "क्या समस्याएँ देखी गईं?"
+      },
+      "type": "boolean",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      },
+      "required": true
+    },
+    {
+      "id": "issue_details",
+      "label": {
+        "en": "Describe the issues",
+        "hi": "समस्याओं का विवरण"
+      },
+      "type": "text",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      },
+      "required": true,
+      "visible_when": {
+        "field": "issues",
+        "equals": true
+      }
+    },
+    {
+      "id": "visit_gps",
+      "label": {
+        "en": "Visit GPS location",
+        "hi": "भ्रमण जीपीएस स्थान"
+      },
+      "type": "gps",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      }
+    },
+    {
+      "id": "photo",
+      "label": {
+        "en": "Monitoring photo",
+        "hi": "निगरानी फोटो"
+      },
+      "type": "photo",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      }
+    },
+    {
+      "id": "collector",
+      "label": {
+        "en": "Collected by",
+        "hi": "संग्रहकर्ता"
+      },
+      "type": "text",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      },
+      "required": true
+    },
+    {
+      "id": "notes",
+      "label": {
+        "en": "Field notes",
+        "hi": "क्षेत्र टिप्पणियाँ"
+      },
+      "type": "text",
+      "section": {
+        "en": "Visit & evidence",
+        "hi": "भ्रमण और साक्ष्य"
+      }
+    }
+  ],
+  "published_at": "2026-08-01T00:00:00Z"
+}
